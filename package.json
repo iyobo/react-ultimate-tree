@@ -1,0 +1,56 @@
+{
+  "name": "uncircled",
+  "version": "1.1.8",
+  "description": "The ultimate tree component for React. Supports animations and drag and drop sorting.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "typescript",
+    "tree",
+    "dnd",
+    "drag",
+    "drop",
+    "animated"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/iyobo/react-ultimate-tree"
+  },
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "test:watch": "jest --config jestconfig.json --watch",
+    "build": "tsc",
+    "prepublish": "tsc && npm test",
+    "dev": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "author": "Iyobo Eki",
+  "license": "MIT",
+  "dependencies": {
+    "class-transformer": "^0.2.3",
+    "lodash": "^4.17.15",
+    "react": ">= 16.9.11",
+    "react-dom": ">= 16.9.11",
+    "react-sortable-hoc": "^1.11.0",
+    "reflect-metadata": "^0.1.13",
+    "react-spring": "^5.3.7"
+  },
+  "peerDependencies": {
+    "prop-types": "15.x.x"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/lodash": "^4.14.136",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.5",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "typescript": "^3.8.3"
+  }
+}
