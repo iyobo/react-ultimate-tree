@@ -1,6 +1,6 @@
 {
-  "name": "uncircled",
-  "version": "1.1.8",
+  "name": "react-ultimate-tree",
+  "version": "1.0.0",
   "description": "The ultimate tree component for React. Supports animations and drag and drop sorting.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
